@@ -1,0 +1,109 @@
+﻿<weatherdata>
+<location>
+	<name>Stratford</name>
+	<type/>
+	<country>CA</country>
+	<timezone>-14400</timezone>
+	<location altitude="0" latitude="43.3668" longitude="-80.9497" geobase="geonames" geobaseid="6157977"/>
+</location>
+<credit/>
+<meta>
+	<lastupdate/>
+	<calctime>0</calctime>
+	<nextupdate/>
+</meta>
+<sun rise="2023-04-11T10:48:22" set="2023-04-12T00:00:58"/>
+<forecast>
+	<time day="2023-04-11">
+		<sun rise="2023-04-11T10:48:22" set="2023-04-12T00:00:58"/>
+		<symbol number="804" name="overcast clouds" var="04d"/>
+		<precipitation probability="0"/>
+		<windDirection deg="264" code="W" name="West"/>
+		<windSpeed mps="9.27" unit="m/s" name="Fresh Breeze"/>
+		<windGust gust="17.07" unit="m/s"/>
+		<temperature day="15.38" min="6.8" max="18.13" night="12.45" eve="15.41" morn="9.5" unit="celsius"/>
+		<feels_like day="14.41" night="11.71" eve="14.7" morn="7.08" unit="celsius"/>
+		<pressure unit="hPa" value="1019"/>
+		<humidity value="55" unit="%"/>
+		<clouds value="overcast clouds" all="100" unit="%"/>
+	</time>
+	<time day="2023-04-12">
+		<sun rise="2023-04-12T10:46:40" set="2023-04-13T00:02:08"/>
+		<symbol number="802" name="scattered clouds" var="03d"/>
+		<precipitation probability="0"/>
+		<windDirection deg="258" code="WSW" name="West-southwest"/>
+		<windSpeed mps="9.69" unit="m/s" name="Fresh Breeze"/>
+		<windGust gust="16.63" unit="m/s"/>
+		<temperature day="19.51" min="9.72" max="21.46" night="15.41" eve="19.41" morn="9.72" unit="celsius"/>
+		<feels_like day="19.14" night="14.83" eve="18.97" morn="7.46" unit="celsius"/>
+		<pressure unit="hPa" value="1011"/>
+		<humidity value="62" unit="%"/>
+		<clouds value="scattered clouds" all="31" unit="%"/>
+	</time>
+	<time day="2023-04-13">
+		<sun rise="2023-04-13T10:44:59" set="2023-04-14T00:03:19"/>
+		<symbol number="800" name="sky is clear" var="01d"/>
+		<precipitation probability="0"/>
+		<windDirection deg="257" code="WSW" name="West-southwest"/>
+		<windSpeed mps="7.74" unit="m/s" name="Moderate breeze"/>
+		<windGust gust="16.83" unit="m/s"/>
+		<temperature day="20.47" min="12.27" max="22.34" night="14.47" eve="19.88" morn="12.27" unit="celsius"/>
+		<feels_like day="20.01" night="13.98" eve="19.41" morn="11.69" unit="celsius"/>
+		<pressure unit="hPa" value="1012"/>
+		<humidity value="55" unit="%"/>
+		<clouds value="clear sky" all="0" unit="%"/>
+	</time>
+	<time day="2023-04-14">
+		<sun rise="2023-04-14T10:43:18" set="2023-04-15T00:04:29"/>
+		<symbol number="803" name="broken clouds" var="04d"/>
+		<precipitation probability="0"/>
+		<windDirection deg="191" code="S" name="South"/>
+		<windSpeed mps="3.28" unit="m/s" name="Light breeze"/>
+		<windGust gust="6.29" unit="m/s"/>
+		<temperature day="22.04" min="12.1" max="22.69" night="14.79" eve="16.88" morn="12.45" unit="celsius"/>
+		<feels_like day="21.32" night="13.79" eve="16.14" morn="11.74" unit="celsius"/>
+		<pressure unit="hPa" value="1013"/>
+		<humidity value="39" unit="%"/>
+		<clouds value="broken clouds" all="75" unit="%"/>
+	</time>
+	<time day="2023-04-15">
+		<sun rise="2023-04-15T10:41:38" set="2023-04-16T00:05:40"/>
+		<symbol number="500" name="light rain" var="10d"/>
+		<precipitation probability="0.24" value="0.48" type="rain"/>
+		<windDirection deg="192" code="SSW" name="South-southwest"/>
+		<windSpeed mps="6.52" unit="m/s" name="Moderate breeze"/>
+		<windGust gust="12.53" unit="m/s"/>
+		<temperature day="19.61" min="13.01" max="20.51" night="13.93" eve="16.38" morn="13.11" unit="celsius"/>
+		<feels_like day="19.19" night="13.7" eve="16.14" morn="12.2" unit="celsius"/>
+		<pressure unit="hPa" value="1011"/>
+		<humidity value="60" unit="%"/>
+		<clouds value="overcast clouds" all="98" unit="%"/>
+	</time>
+	<time day="2023-04-16">
+		<sun rise="2023-04-16T10:39:59" set="2023-04-17T00:06:51"/>
+		<symbol number="616" name="rain and snow" var="13d"/>
+		<precipitation probability="1" value="3.65" type="rain"/>
+		<windDirection deg="205" code="SSW" name="South-southwest"/>
+		<windSpeed mps="9.67" unit="m/s" name="Fresh Breeze"/>
+		<windGust gust="15.04" unit="m/s"/>
+		<temperature day="8.85" min="3.15" max="13.9" night="3.15" eve="3.96" morn="10.16" unit="celsius"/>
+		<feels_like day="4.86" night="-2.01" eve="-1.14" morn="9.45" unit="celsius"/>
+		<pressure unit="hPa" value="1006"/>
+		<humidity value="68" unit="%"/>
+		<clouds value="overcast clouds" all="95" unit="%"/>
+	</time>
+	<time day="2023-04-17">
+		<sun rise="2023-04-17T10:38:20" set="2023-04-18T00:08:02"/>
+		<symbol number="600" name="light snow" var="13d"/>
+		<precipitation probability="0.94" value="3.67" type="snow"/>
+		<windDirection deg="248" code="WSW" name="West-southwest"/>
+		<windSpeed mps="7.2" unit="m/s" name="Moderate breeze"/>
+		<windGust gust="12" unit="m/s"/>
+		<temperature day="3.43" min="0.83" max="3.43" night="1.64" eve="2.27" morn="0.83" unit="celsius"/>
+		<feels_like day="-1.55" night="-3.11" eve="-2.4" morn="-4.31" unit="celsius"/>
+		<pressure unit="hPa" value="1004"/>
+		<humidity value="75" unit="%"/>
+		<clouds value="overcast clouds" all="100" unit="%"/>
+	</time>
+</forecast>
+</weatherdata>

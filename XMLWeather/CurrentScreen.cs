@@ -20,15 +20,16 @@ namespace XMLWeather
         public void DisplayCurrent()
         {
 
+            cityOutput.Text = Form1.Days[0].location;
+            currentOutput.Text = Form1.Days[0].currentTemp;
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)
         {
             Form f = this.FindForm();
             f.Controls.Remove(this);
-
             ForecastScreen fs = new ForecastScreen();
             f.Controls.Add(fs);
         }
-    }
+    }    
 }
