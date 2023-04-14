@@ -38,6 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -134,7 +135,7 @@
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(110, 34);
             this.forecastLabel.TabIndex = 41;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Text = "3 Day";
             this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
             // label5
@@ -149,11 +150,20 @@
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // dateLabel
+            // 
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Location = new System.Drawing.Point(84, 445);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(0, 16);
+            this.dateLabel.TabIndex = 43;
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
+            this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cityOutput);
@@ -166,7 +176,7 @@
             this.Controls.Add(this.label5);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
-            this.Size = new System.Drawing.Size(333, 492);
+            this.Size = new System.Drawing.Size(379, 492);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +193,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label dateLabel;
     }
 }
