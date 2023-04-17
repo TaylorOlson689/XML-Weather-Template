@@ -31,13 +31,11 @@ namespace XMLWeather
             DayOfWeek currentDayOfWeek = DateTime.Now.DayOfWeek;
             int currentDayOfYear = DateTime.Now.DayOfYear;
 
-            tempLabel.Text = "It is currently {condition} with a temprature of {temp}";
-            minOutput.Text = "{mixTemp}";
-            maxOutput.Text = "{maxTemp}";
+            tempLabel.Text = $"It is currently condition with a temprature of temp";
+            minOutput.Text = $"minTemp";
+            maxOutput.Text = $"maxTemp";
 
-            // displays 01/05/2014 11:01:27 AM 
-
-            dateLabel.Text = DateTime.Now.ToString();
+            dateLabel.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy");
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)

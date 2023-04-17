@@ -40,6 +40,12 @@
             this.date3 = new System.Windows.Forms.Label();
             this.min3Label = new System.Windows.Forms.Label();
             this.max3Label = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // forecastLabel
@@ -83,7 +89,7 @@
             // 
             this.date1.AutoSize = true;
             this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(80, 135);
+            this.date1.Location = new System.Drawing.Point(103, 133);
             this.date1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date1.Name = "date1";
             this.date1.Size = new System.Drawing.Size(36, 16);
@@ -94,7 +100,7 @@
             // 
             this.max1Label.AutoSize = true;
             this.max1Label.ForeColor = System.Drawing.Color.White;
-            this.max1Label.Location = new System.Drawing.Point(80, 168);
+            this.max1Label.Location = new System.Drawing.Point(103, 166);
             this.max1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max1Label.Name = "max1Label";
             this.max1Label.Size = new System.Drawing.Size(72, 16);
@@ -105,7 +111,7 @@
             // 
             this.min1Label.AutoSize = true;
             this.min1Label.ForeColor = System.Drawing.Color.White;
-            this.min1Label.Location = new System.Drawing.Point(80, 204);
+            this.min1Label.Location = new System.Drawing.Point(103, 202);
             this.min1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min1Label.Name = "min1Label";
             this.min1Label.Size = new System.Drawing.Size(72, 16);
@@ -116,7 +122,7 @@
             // 
             this.max2Label.AutoSize = true;
             this.max2Label.ForeColor = System.Drawing.Color.White;
-            this.max2Label.Location = new System.Drawing.Point(80, 271);
+            this.max2Label.Location = new System.Drawing.Point(103, 269);
             this.max2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max2Label.Name = "max2Label";
             this.max2Label.Size = new System.Drawing.Size(72, 16);
@@ -127,7 +133,7 @@
             // 
             this.min2Label.AutoSize = true;
             this.min2Label.ForeColor = System.Drawing.Color.White;
-            this.min2Label.Location = new System.Drawing.Point(80, 307);
+            this.min2Label.Location = new System.Drawing.Point(103, 305);
             this.min2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min2Label.Name = "min2Label";
             this.min2Label.Size = new System.Drawing.Size(72, 16);
@@ -138,7 +144,7 @@
             // 
             this.date2.AutoSize = true;
             this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(80, 238);
+            this.date2.Location = new System.Drawing.Point(103, 236);
             this.date2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date2.Name = "date2";
             this.date2.Size = new System.Drawing.Size(36, 16);
@@ -149,7 +155,7 @@
             // 
             this.date3.AutoSize = true;
             this.date3.ForeColor = System.Drawing.Color.White;
-            this.date3.Location = new System.Drawing.Point(80, 334);
+            this.date3.Location = new System.Drawing.Point(103, 332);
             this.date3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date3.Name = "date3";
             this.date3.Size = new System.Drawing.Size(36, 16);
@@ -160,7 +166,7 @@
             // 
             this.min3Label.AutoSize = true;
             this.min3Label.ForeColor = System.Drawing.Color.White;
-            this.min3Label.Location = new System.Drawing.Point(80, 403);
+            this.min3Label.Location = new System.Drawing.Point(103, 401);
             this.min3Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min3Label.Name = "min3Label";
             this.min3Label.Size = new System.Drawing.Size(75, 16);
@@ -171,18 +177,45 @@
             // 
             this.max3Label.AutoSize = true;
             this.max3Label.ForeColor = System.Drawing.Color.White;
-            this.max3Label.Location = new System.Drawing.Point(80, 367);
+            this.max3Label.Location = new System.Drawing.Point(103, 365);
             this.max3Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max3Label.Name = "max3Label";
             this.max3Label.Size = new System.Drawing.Size(72, 16);
             this.max3Label.TabIndex = 70;
             this.max3Label.Text = "Descripton";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(-4, 132);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 75;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(0, 236);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 76;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(4, 332);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.TabIndex = 77;
+            this.pictureBox3.TabStop = false;
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.date3);
             this.Controls.Add(this.min3Label);
             this.Controls.Add(this.max3Label);
@@ -198,6 +231,9 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(405, 492);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,5 +253,8 @@
         private System.Windows.Forms.Label date3;
         private System.Windows.Forms.Label min3Label;
         private System.Windows.Forms.Label max3Label;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

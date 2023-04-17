@@ -39,6 +39,8 @@
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cityOutput
@@ -68,9 +70,9 @@
             this.maxLabel.Location = new System.Drawing.Point(28, 222);
             this.maxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(32, 16);
+            this.maxLabel.Size = new System.Drawing.Size(88, 16);
             this.maxLabel.TabIndex = 31;
-            this.maxLabel.Text = "max";
+            this.maxLabel.Text = "Today\'s High";
             // 
             // minOutput
             // 
@@ -88,9 +90,9 @@
             this.minLabel.Location = new System.Drawing.Point(28, 194);
             this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(28, 16);
+            this.minLabel.Size = new System.Drawing.Size(89, 16);
             this.minLabel.TabIndex = 29;
-            this.minLabel.Text = "min";
+            this.minLabel.Text = "Tonight\'s Low";
             // 
             // currentOutput
             // 
@@ -153,16 +155,26 @@
             // dateLabel
             // 
             this.dateLabel.AutoSize = true;
+            this.dateLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.dateLabel.Location = new System.Drawing.Point(84, 445);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(0, 16);
             this.dateLabel.TabIndex = 43;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(276, 105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
@@ -177,6 +189,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(379, 492);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,5 +207,6 @@
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
