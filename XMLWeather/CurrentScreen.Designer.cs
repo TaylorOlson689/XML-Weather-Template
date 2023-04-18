@@ -33,13 +33,13 @@
             this.maxLabel = new System.Windows.Forms.Label();
             this.minOutput = new System.Windows.Forms.Label();
             this.minLabel = new System.Windows.Forms.Label();
-            this.currentOutput = new System.Windows.Forms.Label();
             this.tempLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.currentOutput = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,16 +94,6 @@
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "Tonight\'s Low";
             // 
-            // currentOutput
-            // 
-            this.currentOutput.BackColor = System.Drawing.Color.Transparent;
-            this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(174, 167);
-            this.currentOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(29, 16);
-            this.currentOutput.TabIndex = 28;
-            // 
             // tempLabel
             // 
             this.tempLabel.AutoSize = true;
@@ -111,9 +101,9 @@
             this.tempLabel.Location = new System.Drawing.Point(28, 167);
             this.tempLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(130, 16);
+            this.tempLabel.Size = new System.Drawing.Size(169, 16);
             this.tempLabel.TabIndex = 26;
-            this.tempLabel.Text = "Current Temperature";
+            this.tempLabel.Text = "Current Weather Conditions";
             // 
             // label3
             // 
@@ -169,11 +159,21 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
+            // currentOutput
+            // 
+            this.currentOutput.AutoSize = true;
+            this.currentOutput.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.currentOutput.Location = new System.Drawing.Point(66, 371);
+            this.currentOutput.Name = "currentOutput";
+            this.currentOutput.Size = new System.Drawing.Size(0, 16);
+            this.currentOutput.TabIndex = 45;
+            // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
+            this.Controls.Add(this.currentOutput);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.forecastLabel);
@@ -183,7 +183,6 @@
             this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.minOutput);
             this.Controls.Add(this.minLabel);
-            this.Controls.Add(this.currentOutput);
             this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.label5);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -201,12 +200,12 @@
         private System.Windows.Forms.Label maxLabel;
         private System.Windows.Forms.Label minOutput;
         private System.Windows.Forms.Label minLabel;
-        private System.Windows.Forms.Label currentOutput;
         private System.Windows.Forms.Label tempLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label currentOutput;
     }
 }

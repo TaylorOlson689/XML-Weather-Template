@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace XMLWeather
 {
@@ -21,16 +22,16 @@ namespace XMLWeather
         {
 
             date1.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
-            min1Label.Text = "{conditon} with a low of {minTemp}°C.";
-            max1Label.Text = "{conditon} with a high of {maxTemp}°C.";
+            //min1Label.Text = Form1.Days[1].tempLow;
+            //max1Label.Text = Form1.Days[1].tempHigh;
 
             date2.Text = DateTime.Now.AddDays(2).DayOfWeek.ToString();
-            min2Label.Text = "{conditon} with a low of {minTemp}°C.";
-            max2Label.Text = "{conditon} with a high of {maxTemp}°C.";
+            //min2Label.Text = Form1.Days[2].tempLow;
+            //max2Label.Text = Form1.Days[2].tempHigh;
 
             date3.Text = DateTime.Now.AddDays(3).DayOfWeek.ToString();
-            min3Label.Text = "{conditon} with a low of {minTemp}°C.";
-            max3Label.Text = "{conditon} with a high of {maxTemp}°C.";
+            //min3Label.Text = Form1.Days[3].tempLow;
+            //max3Label.Text = Form1.Days[3].tempHigh;
         }
 
         private void label3_Click(object sender, EventArgs e)
