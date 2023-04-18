@@ -21,7 +21,7 @@ namespace XMLWeather
         {
 
             cityOutput.Text = Form1.Days[0].location;
-            currentOutput.Text = Form1.Days[0].currentTemp;
+            currentOutput.Text = Form1.Days[0].condition;
 
             int currentSec = DateTime.Now.Second;
             int currentMin = DateTime.Now.Minute;
@@ -31,7 +31,7 @@ namespace XMLWeather
             DayOfWeek currentDayOfWeek = DateTime.Now.DayOfWeek;
             int currentDayOfYear = DateTime.Now.DayOfYear;
 
-            tempLabel.Text = Form1.Days[0].condition;
+            tempLabel.Text = Form1.Days[0].currentTemp;
             minOutput.Text = Form1.Days[0].tempLow;
             maxOutput.Text = Form1.Days[0].tempHigh;
 
