@@ -22,16 +22,16 @@ namespace XMLWeather
         {
 
             date1.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
-            //min1Label.Text = Form1.Days[1].tempLow;
-            //max1Label.Text = Form1.Days[1].tempHigh;
+            min1Label.Text = $"Condition with a low of TempC";
+            max1Label.Text = $"Condition with a high of TempC";
 
             date2.Text = DateTime.Now.AddDays(2).DayOfWeek.ToString();
-            //min2Label.Text = Form1.Days[2].tempLow;
-            //max2Label.Text = Form1.Days[2].tempHigh;
+            min2Label.Text = $"Condition with a low of TempC";
+            max2Label.Text = $"Condition with a high of TempC";
 
             date3.Text = DateTime.Now.AddDays(3).DayOfWeek.ToString();
-            //min3Label.Text = Form1.Days[3].tempLow;
-            //max3Label.Text = Form1.Days[3].tempHigh;
+            min3Label.Text = $"Condition with a low of TempC";
+            max3Label.Text = $"Condition with a high of TempC";
         }
 
         private void label3_Click(object sender, EventArgs e)
